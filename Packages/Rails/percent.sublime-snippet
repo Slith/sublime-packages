@@ -2,5 +2,5 @@
     <content><![CDATA[<% ${1} %>]]></content>
     <tabTrigger>%%</tabTrigger>
     <scope>text.html.ruby, text.haml</scope>
-    <description>percent tags</description>
+    <description><% ... %></description>
 </snippet>
