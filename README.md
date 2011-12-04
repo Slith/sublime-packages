@@ -5,6 +5,7 @@ Sublime Text 2 Packages
 * CoffeeScript
 * SCSS
 * Stylus
+* Cucumber
 
 ### Color schemes:
 * Railscasts
