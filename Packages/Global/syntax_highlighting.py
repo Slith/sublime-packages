@@ -10,7 +10,9 @@ class DetectFileTypeCommand(sublime_plugin.EventListener):
 
     name = os.path.basename(filename.lower())
     
-    if name[-2:] == "rb":
+    if name[-3:] == "erb":
+      set_syntax(view, "HTML (Rails)", "Rails")
+    elif name[-2:] == "rb":
       set_syntax(view, "Ruby on Rails", "Rails")
     elif name[-7:] == "gemfile":
       set_syntax(view, "Ruby", "Ruby")
