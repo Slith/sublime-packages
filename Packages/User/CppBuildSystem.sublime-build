@@ -1,0 +1,5 @@
+{
+    "working_dir": "${project_path}/build",
+    "shell": true,
+    "cmd": ["mingw32-make && ${project_base_name}"]
+}
